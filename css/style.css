@@ -10,7 +10,7 @@
     margin-bottom: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px,10%;
 
 }
@@ -38,24 +38,24 @@
     background-position: center;
     color: white;
     background-repeat: no-repeat;
-    padding-top: 30px;
+    margin-top: 10px;
 }
 
 /* card 1 */
 
 .big-container{
- width:1400px;
- height: 1700px;
+ width:1000px;
+ height: 2500px;
  margin: 0 auto;
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
- border: solid black 2px;
+
 }
 
 .container{
     height: 744px;
-    width: 30%;
+    width: 445px;
     margin: 0 auto;
     position: relative;
     padding-left: 10px;
@@ -68,7 +68,7 @@
 }
 .img{
     height: 651px;
-    width: 445px;
+    width: 445px; 
     border: solid 1px black;
     background-image: url(../images/1.webp);
     background-size: cover;
@@ -195,7 +195,7 @@
     margin-bottom: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px,10%;
     color: white;
     padding-top: 30px;
