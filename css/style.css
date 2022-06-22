@@ -25,6 +25,9 @@
     background-position: center;
 
 }
+.img:hover{
+    background-image: url(../images/1.webp);
+}
 .card-sale{
     height: 25px;
     width: 50px;
