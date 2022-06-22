@@ -3,12 +3,18 @@
     margin: 0;
     padding: 0;
 }
+/* card 1 */
+
+.big-container{
+
+}
 .container{
     height: 744px;
     width: 445px;
     border: solid 1px black;
     margin: 0 auto;
     position: relative;
+    
 }
 .text{
     height: 93px;
@@ -20,13 +26,13 @@
     height: 651px;
     width: 445px;
     border: solid 1px black;
-    background-image: url(../images/1b.webp);
+    background-image: url(../images/1.webp);
     background-size: cover;
     background-position: center;
 
 }
 .img:hover{
-    background-image: url(../images/1.webp);
+    background-image: url(../images/1b.webp);
 }
 .card-sale{
     height: 25px;
@@ -59,4 +65,80 @@
 }
 .price{
     color: red;
+    
+    
+}
+
+.close-price{
+    text-decoration: line-through;
+}
+/* card 2 */
+.img-two{
+    height: 651px;
+    width: 445px;
+    border: solid 1px black;
+    background-image: url(../images/2.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-two:hover{
+    background-image: url(../images/2b.webp);
+}
+ 
+/* card 3 */
+.img-three{
+    height: 651px;
+    width: 445px;
+    border: solid 1px black;
+    background-image: url(../images/3.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-three:hover{
+    background-image: url(../images/3b.webp);
+}
+
+/* card 4 */
+.img-four{
+    height: 651px;
+    width: 445px;
+    border: solid 1px black;
+    background-image: url(../images/4.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-four:hover{
+    background-image: url(../images/4b.webp);
+}
+
+/* card 5 */
+
+.img-five{
+    height: 651px;
+    width: 445px;
+    border: solid 1px black;
+    background-image: url(../images/5.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-five:hover{
+    background-image: url(../images/5b.webp);
+}
+/* card 6 */
+
+.img-six{
+    height: 651px;
+    width: 445px;
+    border: solid 1px black;
+    background-image: url(../images/6.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-six:hover{
+    background-image: url(../images/6b.webp);
 }
